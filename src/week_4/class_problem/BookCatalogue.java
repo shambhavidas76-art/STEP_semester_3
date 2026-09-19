@@ -1,0 +1,1 @@
+class Book { String title,isbn; Book(String t,String i){title=t;isbn=i;} Book(String t){this(t,"Pending");} void show(){System.out.println(title+" | "+isbn);} } public class BookCatalogue { public static void main(String[] a){String[] n={"Java","C"},i={"J1",""};for(int x=0;x<n.length;x++)new Book(n[x],i[x].isEmpty()?"Pending":i[x]).show();} }

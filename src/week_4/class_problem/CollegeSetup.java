@@ -1,0 +1,1 @@
+class PortalStudent { static String college,year; String name; static {college="SRM";year="2026";System.out.println("College info loaded");} PortalStudent(String n){name=n;} } public class CollegeSetup { public static void main(String[] a){for(String n:new String[]{"Ravi","Meera"})System.out.println(new PortalStudent(n).name);} }

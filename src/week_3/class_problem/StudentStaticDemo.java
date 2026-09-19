@@ -1,2 +1,0 @@
-class Student { String name; double attendance; static String collegeName = "SRM Institute of Science and Technology"; static int studentCount; Student(String n, double a) { name=n; attendance=a; studentCount++; } static void printCollegeInfo() { System.out.println(collegeName); System.out.println("Students created: " + studentCount); } }
-public class StudentStaticDemo { public static void main(String[] args) { new Student("Ravi", 90); new Student("Anitha", 95); Student.printCollegeInfo(); } }

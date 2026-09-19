@@ -1,0 +1,1 @@
+class FeeAccount { String id; double rate; FeeAccount(String i,double r){id=i;rate=r;} final double fine(int days){return days*rate;} } public class LateFee { public static void main(String[] a){int[] days={2,0};FeeAccount[] x={new FeeAccount("A",5),new FeeAccount("B",5)};for(int i=0;i<x.length;i++)System.out.println(days[i]>0?x[i].fine(days[i]):"No fee");} }

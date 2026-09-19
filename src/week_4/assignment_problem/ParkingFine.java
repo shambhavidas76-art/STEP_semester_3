@@ -1,0 +1,1 @@
+class ParkingTicket {String no;double rate;ParkingTicket(String n,double r){no=n;rate=r;}final double calculateFine(int m){return m*rate;}final void printReceipt(int m){System.out.println(no+" - Fine: Rs "+calculateFine(m));}} public class ParkingFine {public static void main(String[] a){new ParkingTicket("TN09AB1234",2).printReceipt(15);}}
