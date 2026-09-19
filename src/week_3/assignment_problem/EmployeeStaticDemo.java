@@ -1,0 +1,2 @@
+class CompanyEmployee { String empName; double salary; static String companyName = "Bright Horizon Technologies"; static int employeeCount; CompanyEmployee(String name, double pay) { empName=name; salary=pay; employeeCount++; } static void printCompanyInfo() { System.out.println(companyName); System.out.println("Employees on record: " + employeeCount); } }
+public class EmployeeStaticDemo { public static void main(String[] args) { new CompanyEmployee("Divya", 65000); new CompanyEmployee("Arjun", 0); new CompanyEmployee("Meera", 72000); CompanyEmployee.printCompanyInfo(); } }
