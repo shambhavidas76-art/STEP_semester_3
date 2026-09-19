@@ -1,0 +1,1 @@
+class FineMember {private int total;protected void chargeFine(int n){total+=n;}int getTotalFine(){return total;}} class DiscountStudent extends FineMember{@Override protected void chargeFine(int n){super.chargeFine(n/2);}} public class FineLedger {public static void main(String[]a){DiscountStudent s=new DiscountStudent();s.chargeFine(100);System.out.println(s.getTotalFine());}}

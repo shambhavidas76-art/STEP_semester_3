@@ -1,0 +1,1 @@
+class FeeGymMember {int fees;protected void chargeLateFee(int a){fees+=a;}} class PremiumFeeMember extends FeeGymMember{@Override protected void chargeLateFee(int a){super.chargeLateFee(a/2);}} public class LateFeeLedger {public static void main(String[]a){PremiumFeeMember p=new PremiumFeeMember();p.chargeLateFee(200);System.out.println(p.fees);}}

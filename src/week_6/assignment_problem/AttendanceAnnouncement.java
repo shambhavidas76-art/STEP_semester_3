@@ -1,0 +1,1 @@
+public class AttendanceAnnouncement {static String batchPrint(GymMember[]m){StringBuilder b=new StringBuilder();for(GymMember x:m){b.append(x instanceof PremiumMember?"Premium":"Standard").append(" | Sessions: ").append(x.sessions).append(" | ");}return b.toString();}public static void main(String[]a){System.out.println(batchPrint(new GymMember[]{new GymMember("MEM1",1)}));}}

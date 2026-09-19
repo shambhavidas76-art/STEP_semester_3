@@ -1,0 +1,1 @@
+class GroupClassMember extends GymMember{String className;GroupClassMember(String i,int f,String c){super(i,f);className=c;}} public class GymMembershipTree {static int total(GymMember[]m){int n=0;for(GymMember x:m)n+=x.sessions;return n;}public static void main(String[]a){System.out.println(total(new GymMember[]{new GymMember("MEM1",1)}));}}

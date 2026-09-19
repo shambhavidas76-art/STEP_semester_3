@@ -1,0 +1,1 @@
+public class RenewalAudit {static boolean valid(String s){return s!=null&&s.length()==4&&s.charAt(0)=='R'&&Character.isDigit(s.charAt(1))&&Character.isDigit(s.charAt(2))&&Character.isUpperCase(s.charAt(3));}public static void main(String[]a){System.out.println(valid("R12A"));}}
