@@ -1,0 +1,1 @@
+public class SubclassTicketAccess {public static void main(String[]a){System.out.println(MovieAccessChecker.classifyAccess("protected","SUBCLASS_DIFFERENT_PACKAGE_OWN_TYPE"));System.out.println(MovieAccessChecker.classifyAccess("protected","SUBCLASS_DIFFERENT_PACKAGE_PARENT_TYPE"));}}
